@@ -1,0 +1,1436 @@
+{
+  "pipeline": {
+    "months": [
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04",
+      "2026-05",
+      "2026-06",
+      "2026-07",
+      "2026-08",
+      "2026-09"
+    ],
+    "lodged": [
+      11316,
+      9101,
+      5577,
+      7173,
+      10223,
+      4705,
+      7624,
+      8395,
+      5061,
+      5578,
+      9207,
+      6565,
+      10006,
+      6945,
+      7695,
+      7633,
+      9166,
+      7857,
+      5726,
+      7351,
+      11652,
+      11500,
+      7257,
+      12169,
+      7914,
+      7978,
+      19770
+    ],
+    "approved_dev": [
+      4645,
+      6023,
+      5362,
+      5521,
+      5585,
+      8177,
+      2149,
+      6227,
+      6512,
+      6388,
+      7711,
+      10415,
+      6344,
+      4518,
+      6580,
+      4722,
+      6350,
+      7086,
+      2438,
+      6505,
+      7037,
+      6528,
+      12263,
+      11410,
+      5033,
+      5695,
+      5051
+    ],
+    "approved_con": [
+      4263,
+      3613,
+      2993,
+      4562,
+      3840,
+      4288,
+      4608,
+      3231,
+      4153,
+      3739,
+      5326,
+      4891,
+      4944,
+      3267,
+      5552,
+      4252,
+      4833,
+      4203,
+      2683,
+      4256,
+      4459,
+      4459,
+      4521,
+      4996,
+      5387,
+      3860,
+      null
+    ]
+  },
+  "completions": {
+    "quarters": [
+      "Q1 2024-25",
+      "Q2 2024-25",
+      "Q3 2024-25",
+      "Q4 2024-25",
+      "Q1 2025-26",
+      "Q2 2025-26",
+      "Q3 2025-26",
+      "Q4 2025-26"
+    ],
+    "houses": [
+      6185,
+      5994,
+      4619,
+      5900,
+      5273,
+      5756,
+      4513,
+      5432
+    ],
+    "other": [
+      5094,
+      6543,
+      4760,
+      3630,
+      7605,
+      7757,
+      4581,
+      8628
+    ]
+  },
+  "target_progress": [
+    {
+      "lga": "The Hills",
+      "cumulative": 11671,
+      "target_5yr": 23300,
+      "prorated_target": 10485,
+      "pct_of_target": 50.1,
+      "pct_of_prorated": 111.3
+    },
+    {
+      "lga": "Blacktown",
+      "cumulative": 7389,
+      "target_5yr": 21400,
+      "prorated_target": 9630,
+      "pct_of_target": 34.5,
+      "pct_of_prorated": 76.7
+    },
+    {
+      "lga": "Parramatta",
+      "cumulative": 17383,
+      "target_5yr": 19500,
+      "prorated_target": 8775,
+      "pct_of_target": 89.1,
+      "pct_of_prorated": 198.1
+    },
+    {
+      "lga": "Sydney",
+      "cumulative": 5630,
+      "target_5yr": 18900,
+      "prorated_target": 8505,
+      "pct_of_target": 29.8,
+      "pct_of_prorated": 66.2
+    },
+    {
+      "lga": "Liverpool",
+      "cumulative": 7365,
+      "target_5yr": 16700,
+      "prorated_target": 7515,
+      "pct_of_target": 44.1,
+      "pct_of_prorated": 98.0
+    },
+    {
+      "lga": "Canterbury-Bankstown",
+      "cumulative": 5283,
+      "target_5yr": 14500,
+      "prorated_target": 6525,
+      "pct_of_target": 36.4,
+      "pct_of_prorated": 81.0
+    },
+    {
+      "lga": "Cumberland",
+      "cumulative": 4716,
+      "target_5yr": 12200,
+      "prorated_target": 5490,
+      "pct_of_target": 38.7,
+      "pct_of_prorated": 85.9
+    },
+    {
+      "lga": "Ryde",
+      "cumulative": 8709,
+      "target_5yr": 11600,
+      "prorated_target": 5220,
+      "pct_of_target": 75.1,
+      "pct_of_prorated": 166.8
+    },
+    {
+      "lga": "Newcastle",
+      "cumulative": 2110,
+      "target_5yr": 11100,
+      "prorated_target": 4995,
+      "pct_of_target": 19.0,
+      "pct_of_prorated": 42.2
+    },
+    {
+      "lga": "Campbelltown",
+      "cumulative": 4542,
+      "target_5yr": 10500,
+      "prorated_target": 4725,
+      "pct_of_target": 43.3,
+      "pct_of_prorated": 96.1
+    },
+    {
+      "lga": "Camden",
+      "cumulative": 4443,
+      "target_5yr": 10200,
+      "prorated_target": 4590,
+      "pct_of_target": 43.6,
+      "pct_of_prorated": 96.8
+    },
+    {
+      "lga": "Bayside",
+      "cumulative": 3912,
+      "target_5yr": 10100,
+      "prorated_target": 4545,
+      "pct_of_target": 38.7,
+      "pct_of_prorated": 86.1
+    },
+    {
+      "lga": "Central Coast",
+      "cumulative": 3511,
+      "target_5yr": 9400,
+      "prorated_target": 4230,
+      "pct_of_target": 37.4,
+      "pct_of_prorated": 83.0
+    },
+    {
+      "lga": "Wollongong",
+      "cumulative": 4486,
+      "target_5yr": 9200,
+      "prorated_target": 4140,
+      "pct_of_target": 48.8,
+      "pct_of_prorated": 108.4
+    },
+    {
+      "lga": "Penrith",
+      "cumulative": 1810,
+      "target_5yr": 8400,
+      "prorated_target": 3780,
+      "pct_of_target": 21.5,
+      "pct_of_prorated": 47.9
+    },
+    {
+      "lga": "Lake Macquarie",
+      "cumulative": 2607,
+      "target_5yr": 8000,
+      "prorated_target": 3600,
+      "pct_of_target": 32.6,
+      "pct_of_prorated": 72.4
+    },
+    {
+      "lga": "Inner West",
+      "cumulative": 3408,
+      "target_5yr": 7800,
+      "prorated_target": 3510,
+      "pct_of_target": 43.7,
+      "pct_of_prorated": 97.1
+    },
+    {
+      "lga": "Ku-ring-gai",
+      "cumulative": 3173,
+      "target_5yr": 7600,
+      "prorated_target": 3420,
+      "pct_of_target": 41.8,
+      "pct_of_prorated": 92.8
+    },
+    {
+      "lga": "Georges River",
+      "cumulative": 1453,
+      "target_5yr": 6300,
+      "prorated_target": 2835,
+      "pct_of_target": 23.1,
+      "pct_of_prorated": 51.3
+    },
+    {
+      "lga": "Sutherland",
+      "cumulative": 3636,
+      "target_5yr": 6000,
+      "prorated_target": 2700,
+      "pct_of_target": 60.6,
+      "pct_of_prorated": 134.7
+    },
+    {
+      "lga": "Fairfield",
+      "cumulative": 2761,
+      "target_5yr": 5900,
+      "prorated_target": 2655,
+      "pct_of_target": 46.8,
+      "pct_of_prorated": 104.0
+    },
+    {
+      "lga": "North Sydney",
+      "cumulative": 4015,
+      "target_5yr": 5900,
+      "prorated_target": 2655,
+      "pct_of_target": 68.1,
+      "pct_of_prorated": 151.2
+    },
+    {
+      "lga": "Northern Beaches",
+      "cumulative": 3333,
+      "target_5yr": 5900,
+      "prorated_target": 2655,
+      "pct_of_target": 56.5,
+      "pct_of_prorated": 125.5
+    },
+    {
+      "lga": "Hornsby",
+      "cumulative": 1068,
+      "target_5yr": 5500,
+      "prorated_target": 2475,
+      "pct_of_target": 19.4,
+      "pct_of_prorated": 43.2
+    },
+    {
+      "lga": "Wollondilly",
+      "cumulative": 2149,
+      "target_5yr": 5500,
+      "prorated_target": 2475,
+      "pct_of_target": 39.1,
+      "pct_of_prorated": 86.8
+    },
+    {
+      "lga": "Maitland",
+      "cumulative": 2769,
+      "target_5yr": 5300,
+      "prorated_target": 2385,
+      "pct_of_target": 52.2,
+      "pct_of_prorated": 116.1
+    },
+    {
+      "lga": "Canada Bay",
+      "cumulative": 4919,
+      "target_5yr": 5000,
+      "prorated_target": 2250,
+      "pct_of_target": 98.4,
+      "pct_of_prorated": 218.6
+    },
+    {
+      "lga": "Shoalhaven",
+      "cumulative": 1913,
+      "target_5yr": 4900,
+      "prorated_target": 2205,
+      "pct_of_target": 39.0,
+      "pct_of_prorated": 86.8
+    },
+    {
+      "lga": "Randwick",
+      "cumulative": 2626,
+      "target_5yr": 4000,
+      "prorated_target": 1800,
+      "pct_of_target": 65.6,
+      "pct_of_prorated": 145.9
+    },
+    {
+      "lga": "Cessnock",
+      "cumulative": 1710,
+      "target_5yr": 3900,
+      "prorated_target": 1755,
+      "pct_of_target": 43.8,
+      "pct_of_prorated": 97.4
+    },
+    {
+      "lga": "Shellharbour",
+      "cumulative": 2085,
+      "target_5yr": 3800,
+      "prorated_target": 1710,
+      "pct_of_target": 54.9,
+      "pct_of_prorated": 121.9
+    },
+    {
+      "lga": "Strathfield",
+      "cumulative": 887,
+      "target_5yr": 3500,
+      "prorated_target": 1575,
+      "pct_of_target": 25.3,
+      "pct_of_prorated": 56.3
+    },
+    {
+      "lga": "Lane Cove",
+      "cumulative": 1572,
+      "target_5yr": 3400,
+      "prorated_target": 1530,
+      "pct_of_target": 46.2,
+      "pct_of_prorated": 102.7
+    },
+    {
+      "lga": "Willoughby",
+      "cumulative": 3420,
+      "target_5yr": 3400,
+      "prorated_target": 1530,
+      "pct_of_target": 100.6,
+      "pct_of_prorated": 223.5
+    },
+    {
+      "lga": "Burwood",
+      "cumulative": 1652,
+      "target_5yr": 3300,
+      "prorated_target": 1485,
+      "pct_of_target": 50.1,
+      "pct_of_prorated": 111.2
+    },
+    {
+      "lga": "Waverley",
+      "cumulative": 1091,
+      "target_5yr": 2400,
+      "prorated_target": 1080,
+      "pct_of_target": 45.5,
+      "pct_of_prorated": 101.0
+    },
+    {
+      "lga": "Port Stephens",
+      "cumulative": 1069,
+      "target_5yr": 2100,
+      "prorated_target": 945,
+      "pct_of_target": 50.9,
+      "pct_of_prorated": 113.1
+    },
+    {
+      "lga": "Woollahra",
+      "cumulative": 601,
+      "target_5yr": 1900,
+      "prorated_target": 855,
+      "pct_of_target": 31.6,
+      "pct_of_prorated": 70.3
+    },
+    {
+      "lga": "Hawkesbury",
+      "cumulative": 909,
+      "target_5yr": 1300,
+      "prorated_target": 585,
+      "pct_of_target": 69.9,
+      "pct_of_prorated": 155.4
+    },
+    {
+      "lga": "Kiama",
+      "cumulative": 291,
+      "target_5yr": 900,
+      "prorated_target": 405,
+      "pct_of_target": 32.3,
+      "pct_of_prorated": 71.9
+    },
+    {
+      "lga": "Blue Mountains",
+      "cumulative": 310,
+      "target_5yr": 600,
+      "prorated_target": 270,
+      "pct_of_target": 51.7,
+      "pct_of_prorated": 114.8
+    },
+    {
+      "lga": "Mosman",
+      "cumulative": 156,
+      "target_5yr": 500,
+      "prorated_target": 225,
+      "pct_of_target": 31.2,
+      "pct_of_prorated": 69.3
+    },
+    {
+      "lga": "Hunters Hill",
+      "cumulative": 66,
+      "target_5yr": 400,
+      "prorated_target": 180,
+      "pct_of_target": 16.5,
+      "pct_of_prorated": 36.7
+    }
+  ],
+  "target_progress_top15": [
+    {
+      "lga": "The Hills",
+      "cumulative": 11671,
+      "target_5yr": 23300,
+      "prorated_target": 10485,
+      "pct_of_target": 50.1,
+      "pct_of_prorated": 111.3
+    },
+    {
+      "lga": "Blacktown",
+      "cumulative": 7389,
+      "target_5yr": 21400,
+      "prorated_target": 9630,
+      "pct_of_target": 34.5,
+      "pct_of_prorated": 76.7
+    },
+    {
+      "lga": "Parramatta",
+      "cumulative": 17383,
+      "target_5yr": 19500,
+      "prorated_target": 8775,
+      "pct_of_target": 89.1,
+      "pct_of_prorated": 198.1
+    },
+    {
+      "lga": "Sydney",
+      "cumulative": 5630,
+      "target_5yr": 18900,
+      "prorated_target": 8505,
+      "pct_of_target": 29.8,
+      "pct_of_prorated": 66.2
+    },
+    {
+      "lga": "Liverpool",
+      "cumulative": 7365,
+      "target_5yr": 16700,
+      "prorated_target": 7515,
+      "pct_of_target": 44.1,
+      "pct_of_prorated": 98.0
+    },
+    {
+      "lga": "Canterbury-Bankstown",
+      "cumulative": 5283,
+      "target_5yr": 14500,
+      "prorated_target": 6525,
+      "pct_of_target": 36.4,
+      "pct_of_prorated": 81.0
+    },
+    {
+      "lga": "Cumberland",
+      "cumulative": 4716,
+      "target_5yr": 12200,
+      "prorated_target": 5490,
+      "pct_of_target": 38.7,
+      "pct_of_prorated": 85.9
+    },
+    {
+      "lga": "Ryde",
+      "cumulative": 8709,
+      "target_5yr": 11600,
+      "prorated_target": 5220,
+      "pct_of_target": 75.1,
+      "pct_of_prorated": 166.8
+    },
+    {
+      "lga": "Newcastle",
+      "cumulative": 2110,
+      "target_5yr": 11100,
+      "prorated_target": 4995,
+      "pct_of_target": 19.0,
+      "pct_of_prorated": 42.2
+    },
+    {
+      "lga": "Campbelltown",
+      "cumulative": 4542,
+      "target_5yr": 10500,
+      "prorated_target": 4725,
+      "pct_of_target": 43.3,
+      "pct_of_prorated": 96.1
+    },
+    {
+      "lga": "Camden",
+      "cumulative": 4443,
+      "target_5yr": 10200,
+      "prorated_target": 4590,
+      "pct_of_target": 43.6,
+      "pct_of_prorated": 96.8
+    },
+    {
+      "lga": "Bayside",
+      "cumulative": 3912,
+      "target_5yr": 10100,
+      "prorated_target": 4545,
+      "pct_of_target": 38.7,
+      "pct_of_prorated": 86.1
+    },
+    {
+      "lga": "Central Coast",
+      "cumulative": 3511,
+      "target_5yr": 9400,
+      "prorated_target": 4230,
+      "pct_of_target": 37.4,
+      "pct_of_prorated": 83.0
+    },
+    {
+      "lga": "Wollongong",
+      "cumulative": 4486,
+      "target_5yr": 9200,
+      "prorated_target": 4140,
+      "pct_of_target": 48.8,
+      "pct_of_prorated": 108.4
+    },
+    {
+      "lga": "Penrith",
+      "cumulative": 1810,
+      "target_5yr": 8400,
+      "prorated_target": 3780,
+      "pct_of_target": 21.5,
+      "pct_of_prorated": 47.9
+    }
+  ],
+  "target_progress_con": [
+    {
+      "lga": "The Hills",
+      "cumulative": 6736,
+      "target_5yr": 23300,
+      "prorated_target": 10097,
+      "pct_of_target": 28.9,
+      "pct_of_prorated": 66.7
+    },
+    {
+      "lga": "Blacktown",
+      "cumulative": 5243,
+      "target_5yr": 21400,
+      "prorated_target": 9273,
+      "pct_of_target": 24.5,
+      "pct_of_prorated": 56.5
+    },
+    {
+      "lga": "Parramatta",
+      "cumulative": 6234,
+      "target_5yr": 19500,
+      "prorated_target": 8450,
+      "pct_of_target": 32.0,
+      "pct_of_prorated": 73.8
+    },
+    {
+      "lga": "Sydney",
+      "cumulative": 4199,
+      "target_5yr": 18900,
+      "prorated_target": 8190,
+      "pct_of_target": 22.2,
+      "pct_of_prorated": 51.3
+    },
+    {
+      "lga": "Liverpool",
+      "cumulative": 4822,
+      "target_5yr": 16700,
+      "prorated_target": 7237,
+      "pct_of_target": 28.9,
+      "pct_of_prorated": 66.6
+    },
+    {
+      "lga": "Canterbury-Bankstown",
+      "cumulative": 3499,
+      "target_5yr": 14500,
+      "prorated_target": 6283,
+      "pct_of_target": 24.1,
+      "pct_of_prorated": 55.7
+    },
+    {
+      "lga": "Cumberland",
+      "cumulative": 3294,
+      "target_5yr": 12200,
+      "prorated_target": 5287,
+      "pct_of_target": 27.0,
+      "pct_of_prorated": 62.3
+    },
+    {
+      "lga": "Ryde",
+      "cumulative": 3052,
+      "target_5yr": 11600,
+      "prorated_target": 5027,
+      "pct_of_target": 26.3,
+      "pct_of_prorated": 60.7
+    },
+    {
+      "lga": "Newcastle",
+      "cumulative": 1930,
+      "target_5yr": 11100,
+      "prorated_target": 4810,
+      "pct_of_target": 17.4,
+      "pct_of_prorated": 40.1
+    },
+    {
+      "lga": "Campbelltown",
+      "cumulative": 3224,
+      "target_5yr": 10500,
+      "prorated_target": 4550,
+      "pct_of_target": 30.7,
+      "pct_of_prorated": 70.9
+    },
+    {
+      "lga": "Camden",
+      "cumulative": 3669,
+      "target_5yr": 10200,
+      "prorated_target": 4420,
+      "pct_of_target": 36.0,
+      "pct_of_prorated": 83.0
+    },
+    {
+      "lga": "Bayside",
+      "cumulative": 2477,
+      "target_5yr": 10100,
+      "prorated_target": 4377,
+      "pct_of_target": 24.5,
+      "pct_of_prorated": 56.6
+    },
+    {
+      "lga": "Central Coast",
+      "cumulative": 2859,
+      "target_5yr": 9400,
+      "prorated_target": 4073,
+      "pct_of_target": 30.4,
+      "pct_of_prorated": 70.2
+    },
+    {
+      "lga": "Wollongong",
+      "cumulative": 3254,
+      "target_5yr": 9200,
+      "prorated_target": 3987,
+      "pct_of_target": 35.4,
+      "pct_of_prorated": 81.6
+    },
+    {
+      "lga": "Penrith",
+      "cumulative": 2604,
+      "target_5yr": 8400,
+      "prorated_target": 3640,
+      "pct_of_target": 31.0,
+      "pct_of_prorated": 71.5
+    },
+    {
+      "lga": "Lake Macquarie",
+      "cumulative": 2774,
+      "target_5yr": 8000,
+      "prorated_target": 3467,
+      "pct_of_target": 34.7,
+      "pct_of_prorated": 80.0
+    },
+    {
+      "lga": "Inner West",
+      "cumulative": 1755,
+      "target_5yr": 7800,
+      "prorated_target": 3380,
+      "pct_of_target": 22.5,
+      "pct_of_prorated": 51.9
+    },
+    {
+      "lga": "Ku-ring-gai",
+      "cumulative": 1499,
+      "target_5yr": 7600,
+      "prorated_target": 3293,
+      "pct_of_target": 19.7,
+      "pct_of_prorated": 45.5
+    },
+    {
+      "lga": "Georges River",
+      "cumulative": 1722,
+      "target_5yr": 6300,
+      "prorated_target": 2730,
+      "pct_of_target": 27.3,
+      "pct_of_prorated": 63.1
+    },
+    {
+      "lga": "Sutherland",
+      "cumulative": 2334,
+      "target_5yr": 6000,
+      "prorated_target": 2600,
+      "pct_of_target": 38.9,
+      "pct_of_prorated": 89.8
+    },
+    {
+      "lga": "Fairfield",
+      "cumulative": 2118,
+      "target_5yr": 5900,
+      "prorated_target": 2557,
+      "pct_of_target": 35.9,
+      "pct_of_prorated": 82.8
+    },
+    {
+      "lga": "North Sydney",
+      "cumulative": 752,
+      "target_5yr": 5900,
+      "prorated_target": 2557,
+      "pct_of_target": 12.7,
+      "pct_of_prorated": 29.4
+    },
+    {
+      "lga": "Northern Beaches",
+      "cumulative": 1280,
+      "target_5yr": 5900,
+      "prorated_target": 2557,
+      "pct_of_target": 21.7,
+      "pct_of_prorated": 50.1
+    },
+    {
+      "lga": "Hornsby",
+      "cumulative": 858,
+      "target_5yr": 5500,
+      "prorated_target": 2383,
+      "pct_of_target": 15.6,
+      "pct_of_prorated": 36.0
+    },
+    {
+      "lga": "Wollondilly",
+      "cumulative": 2269,
+      "target_5yr": 5500,
+      "prorated_target": 2383,
+      "pct_of_target": 41.3,
+      "pct_of_prorated": 95.2
+    },
+    {
+      "lga": "Maitland",
+      "cumulative": 2928,
+      "target_5yr": 5300,
+      "prorated_target": 2297,
+      "pct_of_target": 55.2,
+      "pct_of_prorated": 127.5
+    },
+    {
+      "lga": "Canada Bay",
+      "cumulative": 2812,
+      "target_5yr": 5000,
+      "prorated_target": 2167,
+      "pct_of_target": 56.2,
+      "pct_of_prorated": 129.8
+    },
+    {
+      "lga": "Shoalhaven",
+      "cumulative": 1708,
+      "target_5yr": 4900,
+      "prorated_target": 2123,
+      "pct_of_target": 34.9,
+      "pct_of_prorated": 80.4
+    },
+    {
+      "lga": "Randwick",
+      "cumulative": 751,
+      "target_5yr": 4000,
+      "prorated_target": 1733,
+      "pct_of_target": 18.8,
+      "pct_of_prorated": 43.3
+    },
+    {
+      "lga": "Cessnock",
+      "cumulative": 1755,
+      "target_5yr": 3900,
+      "prorated_target": 1690,
+      "pct_of_target": 45.0,
+      "pct_of_prorated": 103.8
+    },
+    {
+      "lga": "Shellharbour",
+      "cumulative": 1644,
+      "target_5yr": 3800,
+      "prorated_target": 1647,
+      "pct_of_target": 43.3,
+      "pct_of_prorated": 99.8
+    },
+    {
+      "lga": "Strathfield",
+      "cumulative": 330,
+      "target_5yr": 3500,
+      "prorated_target": 1517,
+      "pct_of_target": 9.4,
+      "pct_of_prorated": 21.8
+    },
+    {
+      "lga": "Lane Cove",
+      "cumulative": 611,
+      "target_5yr": 3400,
+      "prorated_target": 1473,
+      "pct_of_target": 18.0,
+      "pct_of_prorated": 41.5
+    },
+    {
+      "lga": "Willoughby",
+      "cumulative": 506,
+      "target_5yr": 3400,
+      "prorated_target": 1473,
+      "pct_of_target": 14.9,
+      "pct_of_prorated": 34.3
+    },
+    {
+      "lga": "Burwood",
+      "cumulative": 1425,
+      "target_5yr": 3300,
+      "prorated_target": 1430,
+      "pct_of_target": 43.2,
+      "pct_of_prorated": 99.7
+    },
+    {
+      "lga": "Waverley",
+      "cumulative": 359,
+      "target_5yr": 2400,
+      "prorated_target": 1040,
+      "pct_of_target": 15.0,
+      "pct_of_prorated": 34.5
+    },
+    {
+      "lga": "Port Stephens",
+      "cumulative": 1073,
+      "target_5yr": 2100,
+      "prorated_target": 910,
+      "pct_of_target": 51.1,
+      "pct_of_prorated": 117.9
+    },
+    {
+      "lga": "Woollahra",
+      "cumulative": 387,
+      "target_5yr": 1900,
+      "prorated_target": 823,
+      "pct_of_target": 20.4,
+      "pct_of_prorated": 47.0
+    },
+    {
+      "lga": "Hawkesbury",
+      "cumulative": 894,
+      "target_5yr": 1300,
+      "prorated_target": 563,
+      "pct_of_target": 68.8,
+      "pct_of_prorated": 158.7
+    },
+    {
+      "lga": "Kiama",
+      "cumulative": 253,
+      "target_5yr": 900,
+      "prorated_target": 390,
+      "pct_of_target": 28.1,
+      "pct_of_prorated": 64.9
+    },
+    {
+      "lga": "Blue Mountains",
+      "cumulative": 264,
+      "target_5yr": 600,
+      "prorated_target": 260,
+      "pct_of_target": 44.0,
+      "pct_of_prorated": 101.5
+    },
+    {
+      "lga": "Mosman",
+      "cumulative": 136,
+      "target_5yr": 500,
+      "prorated_target": 217,
+      "pct_of_target": 27.2,
+      "pct_of_prorated": 62.8
+    },
+    {
+      "lga": "Hunters Hill",
+      "cumulative": 63,
+      "target_5yr": 400,
+      "prorated_target": 173,
+      "pct_of_target": 15.8,
+      "pct_of_prorated": 36.3
+    }
+  ],
+  "n_con_months": 26,
+  "greenfield": [
+    {
+      "growth_area": "Council Led Greenfield",
+      "capacity": 25421,
+      "lots_approved": 1529,
+      "lots_in_assessment": 441,
+      "new_lots_created": 20069,
+      "has_audit_data": true
+    },
+    {
+      "growth_area": "Greater Macarthur Growth Area",
+      "capacity": 22350,
+      "lots_approved": 1240,
+      "lots_in_assessment": 958,
+      "new_lots_created": 2249,
+      "has_audit_data": true
+    },
+    {
+      "growth_area": "Greater Penrith to Eastern Creek Investigation Area",
+      "capacity": 4059,
+      "lots_approved": 450,
+      "lots_in_assessment": 247,
+      "new_lots_created": 312,
+      "has_audit_data": true
+    },
+    {
+      "growth_area": "North West Growth Area",
+      "capacity": 113965,
+      "lots_approved": 3514,
+      "lots_in_assessment": 877,
+      "new_lots_created": 48555,
+      "has_audit_data": true
+    },
+    {
+      "growth_area": "South West Growth Area",
+      "capacity": 89827,
+      "lots_approved": 6251,
+      "lots_in_assessment": 1334,
+      "new_lots_created": 39975,
+      "has_audit_data": true
+    },
+    {
+      "growth_area": "Western Sydney Aerotropolis",
+      "capacity": 12941,
+      "lots_approved": 0,
+      "lots_in_assessment": 0,
+      "new_lots_created": -25,
+      "has_audit_data": false
+    },
+    {
+      "growth_area": "Wilton Growth Area",
+      "capacity": 12600,
+      "lots_approved": 1202,
+      "lots_in_assessment": 322,
+      "new_lots_created": 1629,
+      "has_audit_data": true
+    }
+  ],
+  "feasibility": [
+    {
+      "lga": "Willoughby",
+      "da_pct": 223.5,
+      "con_pct": 34.3,
+      "con_da_ratio": 0.15,
+      "da_approvals": 3420,
+      "con_approvals": 506,
+      "target_5yr": 3400
+    },
+    {
+      "lga": "North Sydney",
+      "da_pct": 151.2,
+      "con_pct": 29.4,
+      "con_da_ratio": 0.19,
+      "da_approvals": 4015,
+      "con_approvals": 752,
+      "target_5yr": 5900
+    },
+    {
+      "lga": "Randwick",
+      "da_pct": 145.9,
+      "con_pct": 43.3,
+      "con_da_ratio": 0.29,
+      "da_approvals": 2626,
+      "con_approvals": 751,
+      "target_5yr": 4000
+    },
+    {
+      "lga": "Waverley",
+      "da_pct": 101.0,
+      "con_pct": 34.5,
+      "con_da_ratio": 0.33,
+      "da_approvals": 1091,
+      "con_approvals": 359,
+      "target_5yr": 2400
+    },
+    {
+      "lga": "Ryde",
+      "da_pct": 166.8,
+      "con_pct": 60.7,
+      "con_da_ratio": 0.35,
+      "da_approvals": 8709,
+      "con_approvals": 3052,
+      "target_5yr": 11600
+    },
+    {
+      "lga": "Parramatta",
+      "da_pct": 198.1,
+      "con_pct": 73.8,
+      "con_da_ratio": 0.36,
+      "da_approvals": 17383,
+      "con_approvals": 6234,
+      "target_5yr": 19500
+    },
+    {
+      "lga": "Strathfield",
+      "da_pct": 56.3,
+      "con_pct": 21.8,
+      "con_da_ratio": 0.37,
+      "da_approvals": 887,
+      "con_approvals": 330,
+      "target_5yr": 3500
+    },
+    {
+      "lga": "Northern Beaches",
+      "da_pct": 125.5,
+      "con_pct": 50.1,
+      "con_da_ratio": 0.38,
+      "da_approvals": 3333,
+      "con_approvals": 1280,
+      "target_5yr": 5900
+    },
+    {
+      "lga": "Lane Cove",
+      "da_pct": 102.7,
+      "con_pct": 41.5,
+      "con_da_ratio": 0.39,
+      "da_approvals": 1572,
+      "con_approvals": 611,
+      "target_5yr": 3400
+    },
+    {
+      "lga": "Ku-ring-gai",
+      "da_pct": 92.8,
+      "con_pct": 45.5,
+      "con_da_ratio": 0.47,
+      "da_approvals": 3173,
+      "con_approvals": 1499,
+      "target_5yr": 7600
+    },
+    {
+      "lga": "Inner West",
+      "da_pct": 97.1,
+      "con_pct": 51.9,
+      "con_da_ratio": 0.51,
+      "da_approvals": 3408,
+      "con_approvals": 1755,
+      "target_5yr": 7800
+    },
+    {
+      "lga": "Canada Bay",
+      "da_pct": 218.6,
+      "con_pct": 129.8,
+      "con_da_ratio": 0.57,
+      "da_approvals": 4919,
+      "con_approvals": 2812,
+      "target_5yr": 5000
+    },
+    {
+      "lga": "The Hills",
+      "da_pct": 111.3,
+      "con_pct": 66.7,
+      "con_da_ratio": 0.58,
+      "da_approvals": 11671,
+      "con_approvals": 6736,
+      "target_5yr": 23300
+    },
+    {
+      "lga": "Bayside",
+      "da_pct": 86.1,
+      "con_pct": 56.6,
+      "con_da_ratio": 0.63,
+      "da_approvals": 3912,
+      "con_approvals": 2477,
+      "target_5yr": 10100
+    },
+    {
+      "lga": "Sutherland",
+      "da_pct": 134.7,
+      "con_pct": 89.8,
+      "con_da_ratio": 0.64,
+      "da_approvals": 3636,
+      "con_approvals": 2334,
+      "target_5yr": 6000
+    },
+    {
+      "lga": "Woollahra",
+      "da_pct": 70.3,
+      "con_pct": 47.0,
+      "con_da_ratio": 0.64,
+      "da_approvals": 601,
+      "con_approvals": 387,
+      "target_5yr": 1900
+    },
+    {
+      "lga": "Liverpool",
+      "da_pct": 98.0,
+      "con_pct": 66.6,
+      "con_da_ratio": 0.65,
+      "da_approvals": 7365,
+      "con_approvals": 4822,
+      "target_5yr": 16700
+    },
+    {
+      "lga": "Canterbury-Bankstown",
+      "da_pct": 81.0,
+      "con_pct": 55.7,
+      "con_da_ratio": 0.66,
+      "da_approvals": 5283,
+      "con_approvals": 3499,
+      "target_5yr": 14500
+    },
+    {
+      "lga": "Cumberland",
+      "da_pct": 85.9,
+      "con_pct": 62.3,
+      "con_da_ratio": 0.7,
+      "da_approvals": 4716,
+      "con_approvals": 3294,
+      "target_5yr": 12200
+    },
+    {
+      "lga": "Blacktown",
+      "da_pct": 76.7,
+      "con_pct": 56.5,
+      "con_da_ratio": 0.71,
+      "da_approvals": 7389,
+      "con_approvals": 5243,
+      "target_5yr": 21400
+    },
+    {
+      "lga": "Campbelltown",
+      "da_pct": 96.1,
+      "con_pct": 70.9,
+      "con_da_ratio": 0.71,
+      "da_approvals": 4542,
+      "con_approvals": 3224,
+      "target_5yr": 10500
+    },
+    {
+      "lga": "Wollongong",
+      "da_pct": 108.4,
+      "con_pct": 81.6,
+      "con_da_ratio": 0.73,
+      "da_approvals": 4486,
+      "con_approvals": 3254,
+      "target_5yr": 9200
+    },
+    {
+      "lga": "Sydney",
+      "da_pct": 66.2,
+      "con_pct": 51.3,
+      "con_da_ratio": 0.75,
+      "da_approvals": 5630,
+      "con_approvals": 4199,
+      "target_5yr": 18900
+    },
+    {
+      "lga": "Fairfield",
+      "da_pct": 104.0,
+      "con_pct": 82.8,
+      "con_da_ratio": 0.77,
+      "da_approvals": 2761,
+      "con_approvals": 2118,
+      "target_5yr": 5900
+    },
+    {
+      "lga": "Shellharbour",
+      "da_pct": 121.9,
+      "con_pct": 99.8,
+      "con_da_ratio": 0.79,
+      "da_approvals": 2085,
+      "con_approvals": 1644,
+      "target_5yr": 3800
+    },
+    {
+      "lga": "Hornsby",
+      "da_pct": 43.2,
+      "con_pct": 36.0,
+      "con_da_ratio": 0.8,
+      "da_approvals": 1068,
+      "con_approvals": 858,
+      "target_5yr": 5500
+    },
+    {
+      "lga": "Central Coast",
+      "da_pct": 83.0,
+      "con_pct": 70.2,
+      "con_da_ratio": 0.81,
+      "da_approvals": 3511,
+      "con_approvals": 2859,
+      "target_5yr": 9400
+    },
+    {
+      "lga": "Camden",
+      "da_pct": 96.8,
+      "con_pct": 83.0,
+      "con_da_ratio": 0.83,
+      "da_approvals": 4443,
+      "con_approvals": 3669,
+      "target_5yr": 10200
+    },
+    {
+      "lga": "Blue Mountains",
+      "da_pct": 114.8,
+      "con_pct": 101.5,
+      "con_da_ratio": 0.85,
+      "da_approvals": 310,
+      "con_approvals": 264,
+      "target_5yr": 600
+    },
+    {
+      "lga": "Burwood",
+      "da_pct": 111.2,
+      "con_pct": 99.7,
+      "con_da_ratio": 0.86,
+      "da_approvals": 1652,
+      "con_approvals": 1425,
+      "target_5yr": 3300
+    },
+    {
+      "lga": "Kiama",
+      "da_pct": 71.9,
+      "con_pct": 64.9,
+      "con_da_ratio": 0.87,
+      "da_approvals": 291,
+      "con_approvals": 253,
+      "target_5yr": 900
+    },
+    {
+      "lga": "Mosman",
+      "da_pct": 69.3,
+      "con_pct": 62.8,
+      "con_da_ratio": 0.87,
+      "da_approvals": 156,
+      "con_approvals": 136,
+      "target_5yr": 500
+    },
+    {
+      "lga": "Shoalhaven",
+      "da_pct": 86.8,
+      "con_pct": 80.4,
+      "con_da_ratio": 0.89,
+      "da_approvals": 1913,
+      "con_approvals": 1708,
+      "target_5yr": 4900
+    },
+    {
+      "lga": "Newcastle",
+      "da_pct": 42.2,
+      "con_pct": 40.1,
+      "con_da_ratio": 0.91,
+      "da_approvals": 2110,
+      "con_approvals": 1930,
+      "target_5yr": 11100
+    },
+    {
+      "lga": "Hunters Hill",
+      "da_pct": 36.7,
+      "con_pct": 36.3,
+      "con_da_ratio": 0.95,
+      "da_approvals": 66,
+      "con_approvals": 63,
+      "target_5yr": 400
+    },
+    {
+      "lga": "Hawkesbury",
+      "da_pct": 155.4,
+      "con_pct": 158.7,
+      "con_da_ratio": 0.98,
+      "da_approvals": 909,
+      "con_approvals": 894,
+      "target_5yr": 1300
+    },
+    {
+      "lga": "Port Stephens",
+      "da_pct": 113.1,
+      "con_pct": 117.9,
+      "con_da_ratio": 1.0,
+      "da_approvals": 1069,
+      "con_approvals": 1073,
+      "target_5yr": 2100
+    },
+    {
+      "lga": "Cessnock",
+      "da_pct": 97.4,
+      "con_pct": 103.8,
+      "con_da_ratio": 1.03,
+      "da_approvals": 1710,
+      "con_approvals": 1755,
+      "target_5yr": 3900
+    },
+    {
+      "lga": "Lake Macquarie",
+      "da_pct": 72.4,
+      "con_pct": 80.0,
+      "con_da_ratio": 1.06,
+      "da_approvals": 2607,
+      "con_approvals": 2774,
+      "target_5yr": 8000
+    },
+    {
+      "lga": "Wollondilly",
+      "da_pct": 86.8,
+      "con_pct": 95.2,
+      "con_da_ratio": 1.06,
+      "da_approvals": 2149,
+      "con_approvals": 2269,
+      "target_5yr": 5500
+    },
+    {
+      "lga": "Maitland",
+      "da_pct": 116.1,
+      "con_pct": 127.5,
+      "con_da_ratio": 1.06,
+      "da_approvals": 2769,
+      "con_approvals": 2928,
+      "target_5yr": 5300
+    },
+    {
+      "lga": "Georges River",
+      "da_pct": 51.3,
+      "con_pct": 63.1,
+      "con_da_ratio": 1.19,
+      "da_approvals": 1453,
+      "con_approvals": 1722,
+      "target_5yr": 6300
+    },
+    {
+      "lga": "Penrith",
+      "da_pct": 47.9,
+      "con_pct": 71.5,
+      "con_da_ratio": 1.44,
+      "da_approvals": 1810,
+      "con_approvals": 2604,
+      "target_5yr": 8400
+    }
+  ],
+  "findings": [
+    {
+      "finding": "Completions at 61% of the rate needed for the 377,000 Accord target",
+      "detail": "92,270 dwellings completed over 8 quarters against a pro-rated target of 150,800. Construction approvals, the closer proxy for near-term delivery, reach only 66% of pro-rated targets across the 43 target LGAs."
+    },
+    {
+      "finding": "DA approvals at 103% of target but construction at only 66% \u2014 a 37-point gap",
+      "detail": "Across 43 target LGAs, 19 are at or above 100% on DA approvals (27 months) but only 6 on construction approvals (26 months of ABS building approvals). Because approvals precede completions by one to three years, the DA figure overstates readiness to deliver."
+    },
+    {
+      "finding": "Construction approvals are below half of DA approvals in 10 target LGAs, all in Greater Sydney",
+      "detail": "Lowest construction-to-DA ratios: Willoughby (0.15), North Sydney (0.19), Randwick (0.29), Waverley (0.33), Ryde (0.35). Highest: Penrith (1.44), Georges River (1.19), Maitland (1.06), Wollondilly (1.06), Lake Macquarie (1.06). The low-ratio councils are established Sydney areas where new supply is mostly apartments; this is consistent with the apartment feasibility gap reported by industry (Property Council NSW, Feb 2026, citing Urbis: 75% of apartments approved in metropolitan Sydney since 2020 had not progressed to construction). The data sheet does not split approvals by dwelling type, so the ratio is indicative only; ratios above 1.0 occur because ABS construction approvals include CDCs, which bypass the DA series."
+    },
+    {
+      "finding": "92,270 dwellings completed \u2014 53% are non-house dwellings (apartments, townhouses and similar)",
+      "detail": "43,672 houses and 48,598 other dwellings to the June 2026 quarter. Full-year completions rose from 42,725 in 2024-25 to 49,545 in 2025-26 (up 16%)."
+    },
+    {
+      "finding": "Regional NSW at 96% DA / 79% construction against its 55,000 target",
+      "detail": "The 85 non-target LGAs are the regional remainder (all 43 target councils have individual targets). The regional figure is derived by subtracting the 43 target-LGA totals from the statewide pipeline; it therefore includes all non-target councils and any dwellings not attributable to a target LGA."
+    }
+  ]
+}

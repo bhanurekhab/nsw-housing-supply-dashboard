@@ -1,0 +1,30 @@
+{
+  "title": "NSW Housing Supply Pipeline Dashboard",
+  "analyst": "Bhanu Rekha Basireddy",
+  "date": "October 2026",
+  "data_source": "NSW DPHI Housing Supply Dashboard Data Sheet (CC BY)",
+  "data_sheet_sha256": "85a0ee5fd413f2ff549405572e182a14d15c67b77a5e50b545f37931c55df557",
+  "reporting_period": "2024-07 to 2026-09",
+  "key_findings": [
+    {
+      "finding": "Completions at 61% of the rate needed for the 377,000 Accord target",
+      "detail": "92,270 dwellings completed over 8 quarters against a pro-rated target of 150,800. Construction approvals, the closer proxy for near-term delivery, reach only 66% of pro-rated targets across the 43 target LGAs."
+    },
+    {
+      "finding": "DA approvals at 103% of target but construction at only 66% \u2014 a 37-point gap",
+      "detail": "Across 43 target LGAs, 19 are at or above 100% on DA approvals (27 months) but only 6 on construction approvals (26 months of ABS building approvals). Because approvals precede completions by one to three years, the DA figure overstates readiness to deliver."
+    },
+    {
+      "finding": "Construction approvals are below half of DA approvals in 10 target LGAs, all in Greater Sydney",
+      "detail": "Lowest construction-to-DA ratios: Willoughby (0.15), North Sydney (0.19), Randwick (0.29), Waverley (0.33), Ryde (0.35). Highest: Penrith (1.44), Georges River (1.19), Maitland (1.06), Wollondilly (1.06), Lake Macquarie (1.06). The low-ratio councils are established Sydney areas where new supply is mostly apartments; this is consistent with the apartment feasibility gap reported by industry (Property Council NSW, Feb 2026, citing Urbis: 75% of apartments approved in metropolitan Sydney since 2020 had not progressed to construction). The data sheet does not split approvals by dwelling type, so the ratio is indicative only; ratios above 1.0 occur because ABS construction approvals include CDCs, which bypass the DA series."
+    },
+    {
+      "finding": "92,270 dwellings completed \u2014 53% are non-house dwellings (apartments, townhouses and similar)",
+      "detail": "43,672 houses and 48,598 other dwellings to the June 2026 quarter. Full-year completions rose from 42,725 in 2024-25 to 49,545 in 2025-26 (up 16%)."
+    },
+    {
+      "finding": "Regional NSW at 96% DA / 79% construction against its 55,000 target",
+      "detail": "The 85 non-target LGAs are the regional remainder (all 43 target councils have individual targets). The regional figure is derived by subtracting the 43 target-LGA totals from the statewide pipeline; it therefore includes all non-target councils and any dwellings not attributable to a target LGA."
+    }
+  ]
+}

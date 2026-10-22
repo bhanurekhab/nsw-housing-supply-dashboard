@@ -1,0 +1,348 @@
+/* NSW Housing Supply Pipeline Dashboard — Styles
+   Palette: dataviz skill validated default */
+
+:root {
+  color-scheme: light;
+  --surface-1:      #fcfcfb;
+  --surface-page:   #f9f9f7;
+  --text-primary:   #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted:     #898781;
+  --gridline:       #e1e0d9;
+  --baseline:       #c3c2b7;
+  --border:         rgba(11,11,11,0.10);
+  --series-1:       #2a78d6;  /* blue */
+  --series-2:       #eb6834;  /* orange */
+  --series-3:       #1baf7a;  /* aqua */
+  --series-4:       #eda100;  /* yellow */
+  --series-5:       #e87ba4;  /* magenta */
+  --series-6:       #008300;  /* green */
+  --delta-up-good:  #006300;
+  --status-good:    #0ca30c;
+  --status-warning: #fab219;
+  --status-serious: #ec835a;
+  --status-critical:#d03b3b;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --surface-1:      #1a1a19;
+    --surface-page:   #0d0d0d;
+    --text-primary:   #f0efec;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #898781;
+    --gridline:       #2c2c2a;
+    --baseline:       #383835;
+    --border:         rgba(255,255,255,0.10);
+    --series-1:       #3987e5;
+    --series-2:       #d95926;
+    --series-3:       #199e70;
+    --series-4:       #c98500;
+    --series-5:       #d55181;
+    --series-6:       #008300;
+    --delta-up-good:  #0ca30c;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface-1:      #1a1a19;
+  --surface-page:   #0d0d0d;
+  --text-primary:   #f0efec;
+  --text-secondary: #c3c2b7;
+  --text-muted:     #898781;
+  --gridline:       #2c2c2a;
+  --baseline:       #383835;
+  --border:         rgba(255,255,255,0.10);
+  --series-1:       #3987e5;
+  --series-2:       #d95926;
+  --series-3:       #199e70;
+  --series-4:       #c98500;
+  --series-5:       #d55181;
+  --series-6:       #008300;
+  --delta-up-good:  #0ca30c;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--surface-page);
+  color: var(--text-primary);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+.report-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 16px 64px;
+}
+
+/* Header */
+.report-header {
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--gridline);
+}
+
+.report-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.report-header .subtitle {
+  font-size: 16px;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+
+.report-header .meta {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.report-header .meta a {
+  color: var(--series-1);
+  text-decoration: none;
+}
+
+.report-header .meta a:hover { text-decoration: underline; }
+
+/* KPI tiles */
+.kpi-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.kpi-tile {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.kpi-tile .kpi-label {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+  min-height: 3.2em;
+  display: flex;
+  align-items: flex-end;
+}
+
+.kpi-tile .kpi-value {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+.kpi-tile .kpi-delta {
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.kpi-tile .kpi-delta.positive { color: var(--delta-up-good); }
+.kpi-tile .kpi-delta.negative { color: var(--status-critical); }
+
+/* Sections */
+.findings-section,
+.chart-section,
+.notes-section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--gridline);
+}
+
+/* Findings */
+.finding {
+  margin-bottom: 20px;
+  padding: 16px 20px;
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.finding h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  line-height: 1.35;
+}
+
+.finding p {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+/* Charts */
+.chart-description {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.chart-container {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+}
+
+.greenfield-panels {
+  display: flex;
+  gap: 16px;
+}
+.greenfield-panels .chart-container {
+  min-width: 0;
+}
+
+/* Table view toggle */
+.table-toggle {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--series-1);
+  cursor: pointer;
+  margin-top: 8px;
+  border: none;
+  background: none;
+  padding: 4px 0;
+}
+
+.table-toggle:hover { text-decoration: underline; }
+
+/* Data tables (accessibility) */
+.data-table-wrap {
+  display: none;
+  margin-top: 12px;
+  overflow-x: auto;
+}
+
+.data-table-wrap.visible { display: block; }
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+.data-table th {
+  text-align: left;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-bottom: 2px solid var(--baseline);
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.data-table td {
+  padding: 6px 12px;
+  border-bottom: 1px solid var(--gridline);
+}
+
+.data-table td.num {
+  text-align: right;
+}
+
+.data-table tbody tr:hover {
+  background: var(--surface-page);
+}
+
+/* Progress bars (target chart fallback) */
+.progress-bar-track {
+  height: 12px;
+  background: var(--gridline);
+  border-radius: 6px;
+  overflow: visible;
+  position: relative;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  border-radius: 6px 0 0 6px;
+  min-width: 2px;
+}
+
+.progress-bar-fill.on-track { background: var(--status-good); }
+.progress-bar-fill.behind { background: var(--status-serious); }
+
+/* Notes */
+.notes-section h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 20px 0 8px;
+}
+
+.notes-section p {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+  line-height: 1.55;
+}
+
+.notes-section ul {
+  margin: 0 0 12px 20px;
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+.notes-section li { margin-bottom: 4px; }
+
+/* Theme toggle */
+.theme-toggle {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 100;
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.theme-toggle:hover { color: var(--text-primary); }
+
+/* Responsive */
+@media (max-width: 900px) {
+  .kpi-row { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
+}
+
+.data-hash {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 8px;
+}
+.data-hash code {
+  font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
+  font-size: 11px;
+  word-break: break-all;
+}
+
+@media (max-width: 600px) {
+  .report-container { padding: 16px 16px 48px; }
+  .report-header h1 { font-size: 22px; }
+  .kpi-tile .kpi-value { font-size: 26px; }
+  .chart-container { padding: 12px; }
+  .greenfield-panels { flex-direction: column; }
+}
